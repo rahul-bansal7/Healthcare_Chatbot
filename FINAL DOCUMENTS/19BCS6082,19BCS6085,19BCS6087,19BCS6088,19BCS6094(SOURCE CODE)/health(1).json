@@ -1,0 +1,1161 @@
+{"intents":[
+    {
+        "tag":"greetings ",
+        "patterns":["Hi", "How are you","Is there anyone?"," Hello","Good Day","What's up?"],
+        "responses":["Hey! Welcome to Doc.","Hello","Good to see you","How can I help you?"]
+    },
+
+    {
+        "tag":"creator",
+        "patterns":["Who are your creators", "Who created you","Tell me the name of your creators"],
+        "responses":["My creators are Ratnesh, Rhythm, Rahul, Parv and Somesh. They know all in and out about me."]
+    },
+
+    {
+        "tag":"name",
+        "patterns":["What is your name", "Your name please","Tell me your name"],
+        "responses":["My name is Vaidya👨‍⚕️."]
+    },
+
+    {
+        "tag":"duty",
+        "patterns":["What is your duty", "What is your responsibility","Are you responsible","I think you are a responsible bot"],
+        "responses":["I am a very responsible and my duty is to clear your regarding your queries."]
+    },
+
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later!", "Goodbye!", "Thank you"],
+        "responses": ["See you later! Take care!", "Have a lovely day! Take care and stay safe!","Take care of yourself! I'm always here to support you! Feel free to come back at any time!"],
+        "context_set": ""
+    },
+
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"],
+        "context_set": ""
+    },
+
+    {
+        "tag": "about",
+          "patterns": [
+              "What do you do?",
+              "Who are you?",
+              "What are you here for?",
+              "What can you help me with?",
+              "Is anyone there?",
+              "Are you a real person?",
+              "Tell me about yourself!"
+          ],
+          "responses": [
+              "Love that question! My name's Doc, your health and wealthy friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
+              "Hey! I love that question! My name is Doc, and I want to be your health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularily when things aren't going so well."
+          ],
+          "context_set": ""
+    },
+
+    {
+        "tag": "anxiety",
+        "patterns": [
+            "anxiety",
+            "I think I have anxiety",
+            "What is anxiety?",
+            "Tell me about anxiety",
+            "Can I have some information about anxiety?",
+            "How do I support a loved one with anxiety?",
+            "How do I fix my anxiety?"
+        ],
+        "responses": [
+            "I see that you want to learn more about anxiety, and how to support yourself or your loved ones. At the higest level, anxiety is your body's natural response to stress. It's a feeling of fear or apprehension about what's to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous. We all get anxious sometimes, but anxiety becomes a problem when it starts affecting your daily life drastically. The best thing that you can do to help reduce anxiety is to take a few deep breaths and talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+        ],
+        "context_set": ""
+    },
+
+    {
+        "tag":"Symptoms of Anxiety",
+        "patterns":["What other common signs and symptoms may occur with anxiety?", "Symptoms of anxiety","signs of anxiety"],
+        "responses":["Feeling jumpy, easily startled or dizzy, Shortness of breath, shaking, fatigue, problem focusing"],
+        "context_set": ""
+    },
+
+    {
+        "tag":"Deal Anxiety or Manage Anxiety",
+        "patterns":["What can I do to manage anxiety?", "How to deal anxiety","How to overcome anxiety?"],
+        "responses":["Talk to someone about your anxiety, Find ways to relax, Practice deep breathing, Eat a variety of healthy foods,Create a regular sleep routine"],
+        "context_set": ""
+    },
+
+    {
+        "tag":"Consult doctor regarding Anxiety",
+        "patterns":["When should I call my doctor regarding anxity?","When should I take medical help to overcome anxiety"],
+        "responses":["Your anxiety keeps you from doing your regular daily activities, You have questions or concerns about your condition or care."],
+        "context_set": ""
+    },
+
+
+
+    {
+        "tag": "depression",
+        "patterns": [
+            "I think I have depression",
+            "What is depression?",
+            "Tell me about depression",
+            "Can I have some information about depression?",
+            "How do I support a loved one with depression?",
+            "How do I fix my depression?"
+        ],
+        "responses": [
+            "I see that you want to learn more about depression, and how to support yourself or your loved ones. At the higest level, depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living. All of us experience sadness and periods of time where things aren't that great. However, the difference in sadness and depression lies in the duration and magnitude of the problem. The best recommended course of treatment is to talk a therapist or psychiatrist who can help you find the best path for you. Everyone is different and what might work for one person might not work for another one. Some natural remedies that you can try include: getting enough sleep, meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+        ],
+        "context_set": ""
+    },
+
+    {
+        "tag":"Cause of depression",
+        "patterns":["Cause of depression","How does one get depressed"],
+        "responses":[" There can be many causes of depression such as current situations such as job loss, stress, trauma, or violence. Alcohol use and substance abuse. Severe grief after the death of a loved one."],
+        "context_set": ""
+    },
+
+    {
+        "tag":"Symptoms of Depression",
+        "patterns":["Symptoms of depression","Signs of depression","Hoe ot know if a person is depressed"],
+        "responses":["There can be many signs of a depressed person such as sad, empty or hopeless mood that lasts as least 2 weeks; may also feel anxious, irritated or upset. Inactivity from daily activities,Poor concentration, easily distracted, trouble making decisions.  Thoughts or actions of death or suicide."],
+        "context_set": ""
+       
+    },
+
+    {
+        "tag":"Deal Anxity or Manage depression",
+        "patterns":["What can I do to manage depression?", "How to deal depression","How to overcome depression?"],
+        "responses":["Talk to someone about your depression, and take help of psychologist if it's getting worse."],
+        "context_set": ""
+    },
+
+    {
+        "tag": "schizophrenia",
+        "patterns": [
+            "I think I have schizophrenia",
+            "What is schizophrenia?",
+            "Tell me about schizophrenia",
+            "Can I have some information about schizophrenia?",
+            "How do I support a loved one with schizophrenia?",
+            "How do I fix my schizophrenia?"
+        ],
+        "responses": [
+            "I see that you want to learn more about schizophrenia, and how to support yourself or your loved ones. At the higest level, Schizophrenia is a serious mental disorder in which people interpret reality abnormally. Schizophrenia may result in some combination of hallucinations, delusions, and extremely disordered thinking and behavior that impairs daily functioning, and can be disabling. People with schizophrenia require lifelong treatment. Early treatment may help get symptoms under control before serious complications develop and may help improve the long-term outlook. If you believe you have symptoms of schizophrenia, and/or you have various risk factors that increase the likelihood of schizophrenia, please consult a family doctor and/or psychiatrist for a diagnosis and treatment plan specific for the individual."
+        ],
+        "context_set": ""
+    },
+
+    {
+        "tag": "funny",
+        "patterns": [
+            "Tell me a joke!",
+            "Tell me something funny!",
+            "Do you know a joke?"
+        ],
+        "responses": [
+            "Of course! Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+            "What did the buffalo say when his son left for college? Bison!",
+            "I invented a new word! Plagiarism!"
+        ],
+        "context_set": ""
+    },
+
+    {
+        "tag":"Allergy",
+        "patterns":["What is an allergy?","Tell me something allergy","About allergy"],
+        "responses":["An allergy is an exaggerated immune response or reaction to substances that are generally not considered harmful. You can be allergic to pollen (see hay fever), dust, pet dander, mold, food and certain medications. Allergic reactions can also be caused by insect bites, jewelry, cosmetics, and almost any substance that contacts the body."],
+        "context_set": ""
+    
+    },
+
+    {
+        "tag":"Cause of Allergy",
+        "patterns":["Cause of allergy","What causes allergy","How does allergy happen?"],
+        "responses":["An allergy is caused by an oversensitive immune system, which leads to an improper immune response. The immune system normally protects the body against harmful substances, such as bacteria and viruses. When an allergic reaction occurs, it is a result of the immune system reacting to substances (allergens) that are generally harmless and in most people do not cause an immune response."],
+        "context_set": ""
+    },
+
+    {
+        "tag":"Risk of allergy",
+        "patterns":["Who all are at risk of allergy","Am I at risk of allergy","Can allergy happen to me"],
+        "responses":["People with a greater chance of having an allergy may have risk factors such as, family history of asthma or allergies (such as hay fever, hives, or eczema), diagnosed with asthma"],
+        "context_set": ""
+
+    },
+
+    {
+        "tag":"Allergic treatments",
+        "patterns":["How to treat allergy","Treatment of allergy","How to overcome allergy"],
+        "responses":["The best 'treatment' is to avoid what causes your allergies. Other than this you may consult to a doctor to get specific medication."],
+        "context_set": ""
+    },
+
+    {
+        "tag":"Fungal Infection",
+        "patterns":["What is fungal infection","Tell me about fungal infection","About fungal infection","Cause of fungal infection"],
+        "responses":["A fungal infection, also called mycosis, is a skin disease caused by a fungus.There are millions of species of fungi. They live in the dirt, on plants, on household surfaces, and on your skin. Sometimes, they can lead to skin problems like rashes or bumps."],
+        "context_set": ""
+    },
+
+    {
+        "tag":"Symptoms of fungal Infection",
+        "patterns":["What are symptoms of fungal infection","Symptoms of fungal infection"],
+        "responses":["A fungal skin infection might cause: irritation, itching, swelling, redness, blisters, scaly skin"],
+        "context_set": ""
+    },
+
+    {
+        "tag":"types of fungal infection",
+        "patterns":["types of fungal infection","Different types of fungal infection"],
+        "responses":["Types of fungal infection are: Ringworm of the body, Athelete's foot, and many more"],
+        "context_set": ""
+    },
+
+    {
+        "tag":"Fungal Infection Treatments",
+        "patterns":["Fungal infection treatments","How to overcome fungal infection","treatment for fungal infection"],
+        "responses":["Antifungal medications work to treat fungal infections. They can either kill fungi directly or prevent them from growing and thriving. Antifungal drugs are available as OTC treatments or prescription medications, and come in a variety of forms, including: pills, powder, cream or ointments, sprays"],
+        "context_set": ""
+    },
+
+    {
+        "tag":"Prevention for fungal infection",
+        "patterns":["How to prevent fungal infection","Preventions for fungal infection","Prevent fungal infection"],
+        "responses":["Practice good hygine, don't share clothing, towels, or other personal items, Wear clean clothes every day, particularly socks and underwear, Wear sandals or flip-flops in locker rooms instead of walking with bare feet"],
+        "context_set": ""
+    },
+    
+    {
+        "tag":"chicken pox",
+        "patterns":[
+            "I think I have chicken pox",
+            "What is chicken pox?",
+            "Tell me about chicken pox",
+            "Can I have some information about chicken pox?",
+            "How do I support a loved one with chicken pox?",
+            "How do I fix my chicken pox?"
+        ],
+        "responses":[
+            "Chickenpox is a disease caused by the varicella virus. Chickenpox is spread when an infected person coughs or sneezes. It is also spread when someone touches the fluid that comes out of chickenpox blisters."
+        ]
+    },
+    {
+        "tag":"Symptoms of Chicken Pox",
+        "patterns":["What other common signs and symptoms may occur with chicken pox?", "Symptoms of chicken pox","chicken pox"],
+        "responses":["Fever, rash, headache, cough, tiredness, mouth sores"]
+    },
+    {
+        "tag":"Deal Chicken Pox or Manage Chicken Pox",
+        "patterns":["What can I do to manage chickenpox?", "How to deal chickenpox","How to overcome chickenpox?"],
+        "responses":["Acetaminophen decreases pain and fever, Antihistamines help decrease itching ,The Antihistamines help decrease itching,Apply calamine lotion on your child's rash ,Keep your child away from others"]
+    },
+    {
+        "tag":"Consult doctor regarding Chicken Pox",
+        "patterns":["When should I call my doctor?"],
+        "responses":["The blisters get red, warm, tender, or drain yellow or white fluid.","You have questions or concerns about your child's condition or care"]
+    },
+    {
+        "tag":"dengue",
+        "patterns":[
+            "I think I am suffering from dengue",
+            "What is dengue?",
+            "Tell me about dengue",
+            "Can I have some information about dengue?",
+            "How do I support a loved one with dengue?",
+            "How do I fix my dengue?"
+        ],
+        "responses":[
+            "Dengue is a mosquito-borne viral infection, found in tropical and sub-tropical climates worldwide, mostly in urban and semi-urban areas. While many DENV infections produce only mild illness, DENV can cause an acute flu-like illness. Occasionally this develops into a potentially lethal complication, called severe dengue."
+         ]
+    },
+    {
+        "tag":"Symptoms of Dengue",
+        "patterns":["What other common signs and symptoms may occur with dengue?", "Symptoms of dengue","dengue"],
+        "responses":["Headache,Muscle, bone or joint pain,Severe stomach pain,Fatigue,Nausea,Vomiting,Pain behind the eyes,Swollen glands,Rash"]
+    },
+    {
+        "tag":"Deal Dengue or Manage Dengue",
+        "patterns":["What can I do to manage Dengue?", "How to deal dengue","How to overcome dengue?"],
+        "responses":["Drink plenty of fluids in case of severity Call your doctor "]
+    },
+    {
+        "tag":"Consult doctor regarding Dengue",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Severe dengue fever is a life-threatening medical emergency. Seek immediate medical attention if you've recently visited an area in which dengue fever is known to occur, you have had a fever and you develop any of the warning signs. Warning signs include severe stomach pain, vomiting, difficulty breathing, or blood in your nose, gums, vomit or stools.If you've been traveling recently and develop a fever and mild symptoms of dengue fever, call your doctor."]
+    },
+    
+    {
+        "tag":"hepatitis A",
+        "patterns":[
+            "I think I have hepatitis A",
+            "What is hepatitis A?",
+            "Tell me about hepatitis A",
+            "Can I have some information about hepatitis A?",
+            "How do I support a loved one with hepatitis A?",
+            "How do I fix my hepatitis A?"
+        ],
+        "responses":[
+            "Hepatitis A is an inflammation of the liver that can cause mild to severe illness. The hepatitis A virus (HAV) is transmitted through ingestion of contaminated food and water or through direct contact with an infectious person. The risk of hepatitis A infection is associated with a lack of safe water and poor sanitation and hygiene (such as contaminated and dirty hands)."
+        ]
+    },
+    {
+        "tag":"Symptoms of Hepatitis A",
+        "patterns":["What other common signs and symptoms may occur with Hepatitis A?", "Symptoms of Hepatitis A","Hepatitis A"],
+        "responses":["Low fever","Fatigue","Nausea, vomiting, or loss of appetite","Pain in the right upper side of his or her abdomen","yellow skin and eyes", "itchy skin"]
+    },
+    {
+        "tag":"Deal Hepatitis A or Manage Hepatitis A",
+        "patterns":["What can I do to manage Hepatitis A?", "How to deal Hepatitis A","How to overcome Hepatitis A?"],
+        "responses":["Usually your child will be treated at home. Medicine may not be needed. If your child vomits a lot, he or she may need to go to the hospital to get fluids through an IV. Rest and healthy food will help your child get better."]
+    },
+    {
+        "tag":"Consult doctor regarding Heptitis A",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Your child is vomiting and cannot keep food or liquids down,Your child is bruising easily.You have questions or concerns about your child's condition or care"]
+    },
+    {
+        "tag":"hepatitis B",
+        "patterns":[
+            "I think I have hepatitis B",
+            "What is hepatitis B?",
+            "Tell me about hepatitis B",
+            "Can I have some information about hepatitis B?",
+            "How do I support a loved one with hepatitis B?",
+            "How do I fix my hepatitis B?"
+        ],
+        "responses":[
+            "Hepatitis B is a viral infection that attacks the liver and can cause both acute and chronic disease. The virus is most commonly transmitted from mother to child during birth and delivery, as well as through contact with blood or other body fluids during sex with an infected partner, unsafe injections or exposures to sharp instruments."
+        ]
+    },
+    {
+        "tag":"Symptoms of Hepatitis B",
+        "patterns":["What other common signs and symptoms may occur with Hepatitis B?", "Symptoms of Hepatitis B","Hepatitis B"],
+        "responses":["Dark urine or pale bowel movement,Fatigue and weakness,Fever,Loss of appetite, nausea, and vomiting,Pain in the right upper side of his or her abdomen,yellow skin and eyes, itchy skin,Joint pain and body aches"]
+    },
+    {
+        "tag":"Deal Hepatitis B or Manage Hepatitis B",
+        "patterns":["What can I do to manage Hepatitis B?", "How to deal Hepatitis B","How to overcome Hepatitis B?"],
+        "responses":["Have your child eat a variety of healthy foods,Have your child drink more liquids,Talk to your adolescent about not drinking alcohol ans smoking"]
+    },
+    {
+        "tag":"Consult doctor regarding Heptitis B",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Your child is vomiting and cannot keep food or liquids down ,Your child is bruising easily,You have questions or concerns about your child's condition or care"]
+    },
+    {
+        "tag":"hepatitis C",
+        "patterns":[
+            "I think I have hepatitis C",
+            "What is hepatitis C?",
+            "Tell me about hepatitis C",
+            "Can I have some information about hepatitis C?",
+            "How do I support a loved one with hepatitis C?",
+            "How do I fix my hepatitis C?"
+        ],
+        "responses":[
+            "Hepatitis C is an inflammation of the liver caused by the hepatitis C virus. The virus can cause both acute and chronic hepatitis, ranging in severity from a mild illness to a serious, lifelong illness including liver cirrhosis and cancer. The hepatitis C virus is a bloodborne virus and most infection occur through exposure to blood from unsafe injection practices, unsafe health care, unscreened blood transfusions, injection drug use and sexual practices that lead to exposure to blood."
+        ]
+    },
+    {
+        "tag":"Symptoms of Hepatitis C",
+        "patterns":["What other common signs and symptoms may occur with Hepatitis C?", "Symptoms of Hepatitis C","Hepatitis C"],
+        "responses":["Fatigue","Dark urine or pale bowel movements","Jaundice (yellow skin or eyes) and itchy skin","Joint pain, body aches, or weakness","Loss of appetite, nausea, or vomiting"]
+    },
+    {
+        "tag":"Deal Hepatitis C or Manage Hepatitis C",
+        "patterns":["What can I do to manage Hepatitis C?", "How to deal Hepatitis C","How to overcome Hepatitis C?"],
+        "responses":["Talk to your child's healthcare provider about vaccines,Offer a variety of healthy foods,Have your child drink extra liquids,Talk to your adolescent about not drinking alcohol and smoking"]
+    },
+    {
+        "tag":"Consult doctor regarding Hepatitis C",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Your child has a fever,Your child's abdomen or legs have a rash or are swollen,Your child is bruising easily,You have questions or concerns about your child's condition or care."]
+    },
+    {
+        "tag":"hepatitis D",
+        "patterns":[
+            "I think I have hepatitis D",
+            "What is hepatitis D?",
+            "Tell me about hepatitis D",
+            "Can I have some information about hepatitis D?",
+            "How do I support a loved one with hepatitis D?",
+            "How do I fix my hepatitis D?"
+        ],
+        "responses":[
+            "Hepatitis D virus (HDV) is a virus that requires hepatitis B virus (HBV) for its replication. Hepatitis D virus (HDV) affects globally nearly 5% of people who have a chronic infection with hepatitis B virus (HBV). HDV infection occurs when people become infected with both hepatitis B and D simultaneously (co-infection) or get hepatitis D after first being infected with hepatitis B (super-infection)."
+        ]
+    },
+    {
+        "tag":"Symptoms of Hepatitis D",
+        "patterns":["What other common signs and symptoms may occur with Hepatitis D?", "Symptoms of Hepatitis D","Hepatitis D"],
+        "responses":["Yellow skin and eyes (jaundice),Stomach upset,Pain in your belly,Fatigue,Not feeling hungry"]
+    },
+    {
+        "tag":"Deal Hepatitis D or Manage Hepatitis D",
+        "patterns":["What can I do to manage Hepatitis D?", "How to deal Hepatitis D","How to overcome Hepatitis D?"],
+        "responses":["Call your doctor right away if you have symptoms of hepatitis D. If you have symptoms of the disease without jaundice, your doctor may not suspect hepatitis."]
+    },
+    {
+        "tag":"Consult doctor regarding Heptitis D",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Your child is vomiting and cannot keep food or liquids down,Your child is suffering from jaundice,You have questions or concerns about your child's condition or care"]
+    },
+    {
+        "tag":"Hepatitis E",
+        "patterns":[
+            "I think I have hepatitis E",
+            "What is hepatitis E?",
+            "Tell me about hepatitis E",
+            "Can I have some information about hepatitis E?",
+            "How do I support a loved one with hepatitis E?",
+            "How do I fix my hepatitis E?"
+        ],
+        "responses":[
+            "Hepatitis E is an inflammation of the liver caused by infection with the hepatitis E virus (HEV). The virus is transmitted via the fecal-oral route, principally via contaminated water. Hepatitis E is found worldwide, but the disease is most common in East and South Asia."
+        ]
+    },
+    {
+        "tag":"Symptoms of Hepatitis E",
+        "patterns":["What other common signs and symptoms may occur with Hepatitis E?", "Symptoms of Hepatitis E","Hepatitis E"],
+        "responses":["yellowing of the skin (jaundice),dark urine,joint pain,a loss of appetite,pain in the abdomen,liver enlargement,nausea,fever,vomiting"]
+    },
+    {
+        "tag":"Deal Hepatitis E or Manage Hepatitis E",
+        "patterns":["What can I do to manage Hepatitis E?", "How to deal Hepatitis E","How to overcome Hepatitis E?"],
+        "responses":["If hepatitis E is suspected and your immune system is not suppressed, you may not need medications. A doctor may advise you to rest, drink plenty of fluids, avoid alcohol, and practice good hygiene until the infection subsides.","For people who have severe acute illness and who are not pregnant, treatment with the medication ribavirin for 21 days has resulted in improved liver function in some small studies."]
+    },
+    {
+        "tag":"Consult doctor regarding Heptitis E",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Your child is vomiting and cannot keep food or liquids down,Your child is bruising easily,You have questions or concerns about your child's condition or care"]
+    },
+    {
+        "tag": "Jaundice",
+        "patterns": [
+            "I think I have jaundice",
+            "What is jaundce?",
+            "Tell me about jaundice",
+            "Can I have some information about jaundice?",
+            "How do I support a loved one with jaundice?",
+            "Precautions for jaundice?"
+        ],
+        "responses": [
+            "I see that you want to learn more about jaundice.Hyperbilirubinemia is a condition in which there is too much bilirubin in the blood. When red blood cells break down, a substance called bilirubin is formed. Babies are not easily able to get rid of the bilirubin and it can build up in the blood and other tissues and fluids of the baby's body. This is called hyperbilirubinemia. Because bilirubin has a pigment or coloring, it causes a yellowing of the baby's skin and tissues. This is called jaundice."
+        ]
+    },
+
+    {
+        "tag":"Symptoms of jaundice",
+        "patterns":["What other common signs and symptoms may occur with jaundice?", "Symptoms of jaundice","jaundice"],
+        "responses":["yellowing of your eyes , Fever,Abdominal Pain,change in skin color,dark-colored urine,bloating"]
+    },
+
+    {
+        "tag":"Deal Anxity or Manage jaundice",
+        "patterns":["What can I do to manage anxiety?", "How to deal anxiety","How to overcome anxiety?"],
+        "responses":["Drink more liquid,Eat foods low in fat, Do drink Alcohol,Create a regular sleep routine"]
+    },
+
+    {
+        "tag": "Malaria",
+        "patterns": [
+            "I think I have Malaria",
+            "What is Malaria?",
+            "Tell me about Malaria",
+            "Can I have some information about Malaria?",
+            "How do I support a loved one with Malaria?",
+            "How do I fix my Malaria?"
+        ],
+        "responses": [
+            "I see that you want to learn more about Malaria, and how to support yourself or your loved ones.A parasitic disease characterized by fever, chills, and anemia. "
+        ]
+    },
+    {
+        "tag":"Symptoms of Malaria",
+        "patterns":["What other common signs and symptoms may occur with jaundice?", "Symptoms of malaria","malaria"],
+        "responses":["yellowing of your eyes , Fever,headache,shaking chills,muscle aches,diarrhea,nausea,vomitting"]
+    },
+    {
+        "tag":"How to deal Malaria",
+        "patterns":["What can I do to manage malaria?", "How to deal malaria","How to overcome malaria?"],
+        "responses":["Cover your skin,Apply insect repellent to skin,Apply repellent to clothing,sleep under net,Quinine is used to treat uncomplicated malaria however consult a doctor for medications"]
+    },
+
+    
+    {
+        "tag": "Migrane",
+        "patterns": [
+            "I think I have migrane",
+            "What is migrane?",
+            "Tell me about migrane",
+            "Can I have some information about migrane?",
+            "How do I support a loved one with migrane?",
+            "How do I fix my migrane?"
+        ],
+        "responses": [
+            "I see that you want to learn more about migrane, and how to support yourself or your loved ones.Migraine headaches are a type of headache that some people get repeatedly over time. Migraines are different from other headaches because they occur with symptoms such as nausea, vomiting, or sensitivity to light. "
+        ]
+    },
+    {
+        "tag":"Symptoms of Migrane",
+        "patterns":["What other common signs and symptoms may occur with jaundice?", "Symptoms of jaundice","jaundice"],
+        "responses":["yellowing of your eyes , Fever,headache,shaking chills,muscle aches,diarrhea,nausea,vomitting"]
+    },
+    {
+        "tag":"Deal Migrane or Manage Migrane",
+        "patterns":["What can I do to manage Migrane?", "How to deal Migrane","How to overcome Migrane?"],
+        "responses":["Resting in a dark quiet cool room,Applying a cold compress or washcloth to your forehead or behind your neck(Some people prefer heat.),Massaging your scalp,Yoga,Applying pressure to your temples in a circular motion,Keeping yourself in a calm state. Meditating,Biofeedback."]
+    },
+    {
+        "tag":"Consult doctor regarding Migrane",
+        "patterns":["When should I call my doctor?"],
+        "responses":["You are having neurologic symptoms that you’ve never had before, including speaking difficulty, balance problems, vision problems, mental confusion, seizures or numbing/tingling sensations,Your headache comes on suddenly,You have a headache after experiencing a head injury."]
+    },
+
+
+
+    {
+        "tag":"Paralysis",
+        "patterns":[
+            "I think I have hepatitis paralysis",
+            "What is Paralysis?",
+            "Tell me about Paralysis",
+            "Can I have some information about Paralysis?",
+            "How do I support a loved one with Paralysis?",
+            "How do I fix my Paralysis?"
+        ],
+        "responses":[
+            "Paralysis is the loss of voluntary muscle function in one or more parts of the body as a result of damage to the nervous system.Paralysis occurs when nerve signals are interrupted as a result of damage to the nerves, spinal cord, or brain."
+        ]
+    },
+    {
+        "tag":"Symptoms of Paralysis",
+        "patterns":["What other common signs and symptoms may occur with Paralysis?", "Symptoms of Paralysis","Paralysis"],
+        "responses":["numbness or pain in the affected muscles,muscle weakness,visible signs of muscle loss,stiffness,involuntary spasms or twitches"]
+    },
+    {
+        "tag":"Deal Paralysis or Manage Paralysis",
+        "patterns":["What can I do to manage Paralysis?", "How to deal Paralysis","How to overcome Paralysis?"],
+        "responses":["physical therapy,occupational therapy,mobility devices such as braces walkers wheelchairs,medications,surgical amputation,nerve transfer surgery"]
+    },
+    {
+        "tag":"Consult doctor regarding Paralysis",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Paralysis is the temporary or permanent loss of movement in one or more parts of the body.Medication and surgery can often help, as well. A doctor will base treatment recommendations on the severity and the underlying cause of a person’s paralysis."]
+    },
+
+
+    {
+        "tag":"Gastroenteritis",
+        "patterns":[
+            "I think I have Gastroenteritis",
+            "What is Gastroenritis?",
+            "Tell me about Gastroenritis",
+            "Can I have some information about Gastroenritis?",
+            "How do I support a loved one with Gastroenritis?",
+            "How do I fix my Gastroenritis?"
+        ],
+        "responses":[
+            "Gastroenteritis is inflammation (irritation) of your intestines. People usually call it a “stomach bug” or “stomach flu,” even though it’s not limited to just influenza. Although most people report stomach pain, gastroenteritis can also involve your small intestines and colon."
+        ]
+    },
+    {
+        "tag":"Symptoms of Gastroenteritis",
+        "patterns":["What other common signs and symptoms may occur with Gastroenteritis?", "Symptoms of Gastroenteritis","Gastroenteritis"],
+        "responses":["diarrhea,Abdominal (belly) pain,cramping,Nausea,vomiting,Fever,Headache and body aches"]
+    },
+    {
+        "tag":"Deal Gastroenteritis or Manage Gastroenteritis",
+        "patterns":["What can I do to manage Gastroenteritis?", "How to deal Gastroenteritis","How to overcome Gastroenteritis?"],
+        "responses":["Hyderated as due to vomiting the body secretes lot of fluids,Healthy diet,Do not take contaminated food and water,surroundings must be cleaned using a disinfectant"]
+    },
+    {
+        "tag":"Consult doctor regarding Gastroenteritis",
+        "patterns":["When should I call my doctor?"],
+        "responses":["High fever,Bloody diarrhea,Severe pain,Symptoms that fail to improve/resolve over time,low urine output, dry mucous membranes, lightheadedness, dizziness"]
+    },
+
+
+    {
+        "tag":"Bronchial Asthma",
+        "patterns":[
+            "I think I have Bronchial Asthma",
+            "What is Bronchial Asthma?",
+            "Tell me about Bronchial Asthma",
+            "Can I have some information about Bronchial Asthma?",
+            "How do I support a loved one with Bronchial Asthma?",
+            "How do I fix my Bronchial Asthma?"
+        ],
+        "responses":[
+            "Bronchial asthma is a medical condition which causes the airway path of the lungs to swell and narrow. Due to this swelling, the air path produces excess mucus making it hard to breathe, which results in coughing, short breath, and wheezing. The disease is chronic and interferes with daily working. The disease is curable and inhalers help overcome asthma attacks. Bronchial Asthma can affect any age or gender and depends upon environmental and hereditary factors at large. When ignored, disease proves fatal claiming lives in many cases. "
+        ]
+    },
+    {
+        "tag":"Symptoms of Bronchial Asthma",
+        "patterns":["What other common signs and symptoms may occur with Bronchial Asthma?", "Symptoms of Asthma","Bronchial Asthma"],
+        "responses":["Coughing,Wheezing(a whistling sound when you breathe),Shortness of breath,Tightness, pain,pressure in your chest,Trouble sleeping because of breathing problems,Cold and flu due to viral infection"]
+    },
+    {
+        "tag":"Deal Bronchial Asthma or Manage Bronchial Asthma",
+        "patterns":["What can I do to manage Bronchial Asthma?", "How to deal Bronchial Asthma","How to overcome Bronchial Asthma?"],
+        "responses":["Avoid asthma triggers,Exercise regularly,Stay at a healthy weight,Take care of conditions that can trigger symptoms such as GERD,Do breathing exercises to ease symptoms so you need less medication,Some people use complementary treatments such as yoga acupuncture biofeedback supplements like vitamin C and ding chuan tang.Talk to your doctor before trying any of these."]
+    },
+    {
+        "tag":"Consult doctor regarding Bronchial Asthma",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Fast breathing,Pale or blue face lips fingernails,The skin around your ribs pulls inward when you breathe in,Trouble breathing while walking talking,Symptoms that don’t get better after you take medication"]
+    },
+
+
+    {
+        "tag":"Cervical Spondylosis",
+        "patterns":[
+            "I think I have Cervical Spondylosis",
+            "What is Cervical Spondylosis?",
+            "Tell me about Cervical Spondylosis",
+            "Can I have some information about Cervical Spondylosis?",
+            "How do I support a loved one with Cervical Spondylosis?",
+            "How do I fix my cervical Spondylosis?"
+        ],
+        "responses":[
+            "Cervical spondylosis is a general term for age-related wear and tear affecting the spinal disks in your neck. As the disks dehydrate and shrink, signs of osteoarthritis develop, including bony projections along the edges of bones (bone spurs).Cervical spondylosis is very common and worsens with age."
+        ]
+    },
+    {
+        "tag":"Symptoms of Cervical spndylosis",
+        "patterns":["What other common signs and symptoms may occur with cervical spondylosis?", "Symptoms of cervical spondylosis","Cervical spondylosis"],
+        "responses":["Tingling, numbness and weakness in your arms hand legs or feet,Lack of coordination and difficulty walking,Loss of bladder or bowel control"]
+    },
+    {
+        "tag":"Deal Cervical spondylosis or Manage Cervical spondylosis",
+        "patterns":["What can I do to manage Cervical spondylosis?", "How to deal Cervical spndylosis","How to overcome cervical spondylosis?"],
+        "responses":["Physical therapy,ice and heat massage,oral mediactions on advice of doctor,soft collar or brace,injection of steroid in the affected areas of spine"]
+    },
+    {
+        "tag":"Consult doctor regarding Cervical spondylosis",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Seek medical attention if you notice a sudden onset of numbness or weakness, or loss of bladder or bowel control."]
+    },
+
+    {
+        "tag":"Hyperthyroidism",
+        "patterns":[
+            "I think I have Hyperthyroidism ",
+            "What is Hyperthyroidism?",
+            "Tell me about Hyperthyroidism",
+            "Can I have some information about Hyperthyroidism?",
+            "How do I support a loved one with Hyperthyroidism?",
+            "How do I fix my Hyperthyroidism?"
+        ],
+        "responses":[
+            "Hyperthyroidism, also called overactive thyroid, is a condition where the thyroid releases high levels of thyroid hormone into the body. This condition can make your metabolism speed up. Symptoms of hyperthyroidism include a rapid heartbeat, weight loss, increased appetite and anxiety.."
+        ]
+    },
+    {
+        "tag":"Symptoms of Hyperthyroidism",
+        "patterns":["What other common signs and symptoms may occur with Hyperthyroidism?", "Symptoms of Hyperthyroidism","Hyperthyroidism"],
+        "responses":["Fatigue, Increased sensitivity to cold, constipation, dry skin, weight gain, puffy face, muscle weakness"]
+    },
+    {
+        "tag":"Deal Hyperthyroidism or Manage Hyperthyroidism",
+        "patterns":["What can I do to manage Hyperthyroididm?", "How to deal Hyperthyroididm","How to overcome Hyperthyroididm?"],
+        "responses":["Hypothyroidism is best treated by using levothyroxine (Levoxyl, Synthroid). This synthetic version of the T4 hormone copies the action of the thyroid hormone your body would normally produce.", " Selenium and Vitamin B is also helpful","Certain medications, supplements and even some foods may affect your ability to absorb levothyroxine. Talk to your doctor if you eat large amounts of soy products or a high-fiber diet or you take other medications, such as: Iron supplements or multivitamins that contain iron . Aluminum hydroxide, which is found in some antacids and Calcium supplements"]
+    },
+    {
+        "tag":"Consult doctor regarding Hyperthyroidism",
+        "patterns":["When should I call my doctor?"],
+        "responses":["You have questions or concerns about your Hyperthyroidism?","If you are feeling increasingly tired, have dry skin, constipation and weight gain, or have had previous thyroid problems or a goiter."]
+    },
+    {
+        "tag":"Hyperglycemia",
+        "patterns":[
+            "I think I am suffering from Hyperglycemia",
+            "What is Hyperglycemia?",
+            "Tell me about Hyperglycemia",
+            "Can I have some information about Hyperglycemia?",
+            "How do I support a loved one with Hyperglycemia?",
+            "How do I fix my Hyperglycemia?"
+        ],
+        "responses":[
+            "Hyperglycemia (high blood glucose) means there is too much sugar in the blood because the body lacks enough insulin. Associated with diabetes, hyperglycemia can cause vomiting, excessive hunger and thirst, rapid heartbeat, vision problems and other symptoms."
+         ]
+    },
+    {
+        "tag":"Symptoms of Hyperglycemia",
+        "patterns":["What other common signs and symptoms may occur with Hyperglycemia?", "Symptoms of Hyperglycemia","Hyperglycemia"],
+        "responses":["High blood sugar, Vomiting, Dehydration, Unusual fruity smell on the breath, Rapid Heartbeat, Hyperventilation, Increased thirst or hunger, Blurred Vision"]
+    },
+    {
+        "tag":"Deal Hyperglycemia or Manage Hyperglycemia",
+        "patterns":["What can I do to manage Hyperglycemia?", "How to deal Hyperglycemmia","How to overcome Hyperglycemmia?"],
+        "responses":["Metformin (Fortamet, Glumetza, others) is generally the first medication prescribed for type 2 diabetes. It works primarily by lowering glucose production in the liver and improving your body's sensitivity to insulin so that your body uses insulin more effectively.", "Sulfonylureas help your body secrete more insulin","GLP-1 receptor agonists are injectable medications that slow digestion and help lower blood sugar levels. Their use is often associated with weight loss, and some may reduce the risk of heart attack and stroke.","Limit Inactivity by doing more exercise resulting in weight loss "]
+    },
+    {
+        "tag":"Consult doctor regarding Hyperglycemia",
+        "patterns":["When should I call my doctor?"],
+        "responses":["You have questions or concerns about your Hyperglycemia","If your blood sugar continues to be below 70 mg/dL or you are getting more sleepy","You have questions or concerns about your hyperglycemia."]
+    },
+    {
+        "tag":"Osteoarthritis",
+        "patterns":[
+            "I think I have Osteoarthritis",
+            "What is Osteoarthritis?",
+            "Tell me about Osteoarthritis",
+            "Can I have some information about Osteoarthritis?",
+            "How do I support a loved one with Osteoarthritis?",
+            "How do I fix my Osteoarthritis?"
+        ],
+        "responses":[
+            "Osteoarthritis is the most common form of arthritis, affecting millions of people worldwide. It occurs when the protective cartilage that cushions the ends of the bones wears down over time. Although osteoarthritis can damage any joint, the disorder most commonly affects joints in your hands, knees, hips and spine.."
+        ]
+    },
+    {
+        "tag":"Symptoms of Osteoarthritis",
+        "patterns":["What other common signs and symptoms may occur with Osteoarthritis?", "Symptoms of Osteoarthritis","Osteoarthritis"],
+        "responses":["Pain, Stiffness, Tenderness, Loss of flexibility, Bone spurs, Swelling, Joint pains, limping"]
+    },
+    {
+        "tag":"Deal Osteoarthritis or Manage Osteoarthritis",
+        "patterns":["What can I do to manage Osteoarthritis?", "How to deal Osteoarthritis","How to overcome Osteoarthritis?"],
+        "responses":["Imaging tests like X-Ray and MRI","Blood tests and Joint Fluid tests are recommended","Acetaminophen (Tylenol, others) has been shown to help some people with osteoarthritis who have mild to moderate pain","ibuprofen (Advil, Motrin IB, others) and naproxen sodium (Aleve), taken at the recommended doses, typically relieve osteoarthritis pain.","Physical therapy is recommended","Transcutaneous electrical nerve stimulation (TENS) uses a low-voltage electrical current to relieve pain"]
+    },
+    {
+        "tag":"Consult doctor regarding Osteoarthritis",
+        "patterns":["When should I call my doctor?"],
+        "responses":["You have questions or concerns about your Osteoarthritis","If any of these joint pain symptoms last three days, or you experience several episodes of these symptoms within a month","incase of swollen joints","clicking or cracking sound when a joint bends"]
+    },
+    {
+        "tag":"Arthritis",
+        "patterns":[
+            "I think I have Arthritis",
+            "What is Arthritis?",
+            "Tell me about Arthritis",
+            "Can I have some information about Arthritis?",
+            "How do I support a loved one with Arthritis?",
+            "How do I fix my Arthritis?"
+        ],
+        "responses":[
+            "Arthritis is inflammation of one or more joints, causing pain and stiffness that can worsen with age. Different types of arthritis exist, each with different causes including wear and tear, infections and underlying diseases. Symptoms include pain, swelling, reduced range of motion and stiffness. Medication, physiotherapy or sometimes surgery helps reduce symptoms and improve quality of life."
+        ]
+    },
+    {
+        "tag":"Symptoms of Arthritis",
+        "patterns":["What other common signs and symptoms may occur with Arthritis?", "Symptoms of Arthritis","Arthritis"],
+        "responses":["Pain, Stiffness, Swelling, Redness in joints, Decreased range of motion"]
+    },
+    {
+        "tag":"Deal Arthritis or Manage Arthritis",
+        "patterns":["What can I do to manage Arthritis?", "How to deal Arthritis","How to overcome Arthritis?"],
+        "responses":["Imaging like X-Ray and MRI and CT-Scan are recommended","Nonsteroidal anti-inflammatory drugs (NSAIDs) can relieve pain and reduce inflammation. Examples include ibuprofen (Advil, Motrin IB, others) and naproxen sodium (Aleve). Stronger NSAIDs can cause stomach irritation and may increase your risk of heart attack or stroke. NSAIDs are also available as creams or gels, which can be rubbed on joints.","Corticosteroid medications, such as prednisone, reduce inflammation and pain and slow joint damage.","Physical therapy is recommended."]
+    },
+    {
+        "tag":"Consult doctor regarding Arthritis",
+        "patterns":["When should I call my doctor?"],
+        "responses":["You have questions or concerns about your Arthritis?","If you have pain in multiple joints","Pain doesn't go away with rest","If your joints turn red or hot","Stiffness in joints."]
+    },
+    {
+        "tag":"Paroxysmal Positional Vertigo",
+        "patterns":[
+            "I think I have Paroxysmal Positional Vertigo",
+            "What is Paroxysmal Positional Vertigo?",
+            "Tell me about Paroxysmal Positional Vertigo",
+            "Can I have some information about Paroxysmal Positional Vertigo?",
+            "How do I support a loved one with Paroxysmal Positional Vertigo?",
+            "How do I fix my Paroxysmal Positional Vertigo?"
+        ],
+        "responses":[
+            "Paroxysmal Positional Vertigo(PPV) is triggered by certain changes in head position, such as tipping the head up or down. It's rarely serious unless it increases the risk of falling. People can experience dizziness, a spinning sensation (vertigo), lightheadedness, unsteadiness, loss of balance and nausea. Treatment includes a series of head movements that shift particles in the ears.."
+        ]
+    },
+    {
+        "tag":"Symptoms of Paraxysmal Positional Vertigo(PPV)",
+        "patterns":["What other common signs and symptoms may occur with Paraxysmal Positional Vertigo(PPV)?", "Symptoms of Paraxysmal Positional Vertigo(PPV)","Paraxysmal Positional Vertigo(PPV)"],
+        "responses":["Dizziness, Loss of Balance or unsteadiness, nausea, vomiting, A sense that you or your surroundings are spinning or moving."]
+    },
+    {
+        "tag":"Deal Paraxysmal Positional Vertigo(PPV) or Manage Paraxysmal Positional Vertigo(PPV)",
+        "patterns":["What can I do to manage Paraxysmal Postional Vertigo(PPV)?", "How to deal Paraxysmal Postional Vertigo(PPV)","How to overcome Paraxysmal Postional Vertigo(PPV)?"],
+        "responses":["Doctor may suggest tests like ENG/VNG and MRI","Avoid movements, such as looking up, that bring on the symptoms.","Sit down immediately when you feel dizzy.","Be aware of the possibility of losing your balance, which can lead to falling and serious injury."]
+    },
+    {
+        "tag":"Consult doctor regarding Paraxysmal Positional Vertigo(PPV)",
+        "patterns":["When should I call my doctor?"],
+        "responses":["You have questions or concerns about your PPV?","If you experience any recurrent, sudden, severe, or prolonged and unexplained dizziness or vertigo."]
+    },
+    {
+        "tag":"Acne",
+        "patterns":[
+            "I think I have Acne",
+            "What is Acne?",
+            "Tell me about Acne",
+            "Can I have some information about Acne?",
+            "How do I support a loved one with Acne?",
+            "How do I fix my Acne?"
+        ],
+        "responses":[
+            "Acne is a skin condition that occurs when your hair follicles become plugged with oil and dead skin cells. It causes whiteheads, blackheads or pimples. Acne is most common among teenagers, though it affects people of all ages. Effective acne treatments are available, but acne can be persistent, Treatments include over-the-counter creams and cleanser, as well as prescription antibiotics."
+        ]
+    },
+    {
+        "tag":"Symptoms of Acne",
+        "patterns":["What other common signs and symptoms may occur with Acne?", "Symptoms of Acne","Acne"],
+        "responses":["Crusting of skin bumps, Scarring of skin, redness around skin eruption, whiteheads, blackheads, pimples"]
+    },
+    {
+        "tag":"Deal Acne or Manage Acne",
+        "patterns":["What can I do to manage acne?", "How to deal acne","How to overcome acne?"],
+        "responses":["Taking good care of skin.","wash face regularly and after sweating","If you have oily hair, shampoo daily.","Ketoconazole ointments can help skin,","Be gentle with skincare routines"]
+    },
+    {
+        "tag":"Consult doctor regarding Acne",
+        "patterns":["When should I call my doctor?"],
+        "responses":["You have questions or concerns about your Acne?","If pimples get large or fluid oozes out of it.","If scarring gets bad.","If Have Moderate to Severe Inflammatory Acne, Nodules, or Cystic Breakouts."]
+    },
+    {
+        "tag":"Urinary Tract Infection",
+        "patterns":[
+            "I think I have Urinary Tract Infection",
+            "What is Urinary Tract Infection?",
+            "Tell me about Urinary Tract Infection",
+            "Can I have some information about Urinary Tract Infection?",
+            "How do I support a loved one with Urinary Tract Infection?",
+            "How do I fix my Urinary Tract Infection?"
+        ],
+        "responses":[
+            "Urinary Tract Infection is An infection in any part of the urinary system, the kidneys, bladder or urethra. Urinary tract infections are more common in women. They usually occur in the bladder or urethra, but more serious infections involve the kidney. A bladder infection may cause pelvic pain, increased urge to urinate, pain with urination and blood in the urine. A kidney infection may cause back pain, nausea, vomiting and fever. Common treatment is with antibiotics."
+        ]
+    },
+    {
+        "tag":"Symptoms of Urinary Tract Infection",
+        "patterns":["What other common signs and symptoms may occur with Urinary Tract Infection?", "Symptoms of Urinary Tract Infection","Urinary Tract Infection"],
+        "responses":["Burning feeling while peeing","cloudy, dark or strange smeling pee","pelvic pain","blood with urine","Fever or chills","feeling tired or shaky"]
+    },
+    {
+        "tag":"Deal Urinary Tract Infection or Manage Urinary Tract Infection",
+        "patterns":["What can I do to manage Urinary Tract Infection?", "How to deal Urinary Tract Infection","How to overcome Urinary Tract Infection?"],
+        "responses":["Drink plenty of water","Avoid drinks like coffee, alcohol, soft drinks that may irritate you bladder","Use a heating pad","Low dose antibiotics like Trimethoprim, levoflaxacin help in pain medication in case of UTI "]
+    },
+    {
+        "tag":"Consult doctor regarding Urinary Tract Infection",
+        "patterns":["When should I call my doctor?"],
+        "responses":["You have questions or concerns about your Urinary Tract Infection","If you experience Painful urination or blood in urine","","Pain in lower abdomen area", "abnormal urine smell and color."]
+    },
+    {
+        "tag":"Psoriasis",
+        "patterns":[
+            "I think I have Psoriasis",
+            "What is Psoriasis?",
+            "Tell me about Psoriasis",
+            "Can I have some information about Psoriasis?",
+            "How do I support a loved one with Psoriasis?",
+            "How do I fix my Psoriasis?"
+        ],
+        "responses":[
+            "Psoriasis is a condition in which skin cells build up and form scales and itchy, dry patches.Psoriasis is thought to be an immune system problem. Triggers include infections, stress and cold. The most common symptom is a rash on the skin, but sometimes the rash involves the nails or joints. Treatment aims to remove scales and stop skin cells from growing so quickly. Topical ointments, light therapy and medication can offer relief.."
+        ]
+    },
+    {
+        "tag":"Symptoms of Psoriasis",
+        "patterns":["What other common signs and symptoms may occur with Psoriasis?", "Symptoms of Psoriasis","Psoriasis"],
+        "responses":["Red patches of skin covered with thic scales, Dry cracked skin that may bleed or itch","Burning or soreness in skin"]
+    },
+    {
+        "tag":"Deal Psoriasis or Manage Psoriasis",
+        "patterns":["What can I do to manage psoriasis?", "How to deal impetigo","How to overcome impetigo?"],
+        "responses":["Prevent skin from getiing dry","Eating healthy diet","warm baths","Fish oil, vitamin D, aloevera help ease symptoms of psoriasis","light therapy helps in psoriasis","Choose products for sensitive skin"]
+    },
+    {
+        "tag":"Consult doctor regarding Psoriasis",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Incase of unbearable pain from itchy,dry, scaly skin.,You have questions or concerns about your psoriasis,Bleeding skin,scratchy and scaly skin,when you have questions regarding psoriasis"]
+    },
+    {
+        "tag":"Impetigo",
+        "patterns":[
+            "I think I have Impetigo",
+            "What is Impetigo?",
+            "Tell me about Impetigo",
+            "Can I have some information about Impetigo?",
+            "How do I support a loved one with Impetigo?",
+            "How do I fix my Impetigo?"
+        ],
+        "responses":[
+            "A highly contagious skin infection that causes red sores on the face. Impetigo mainly affects infants and children. The main symptom is red sores that form around the nose and mouth. The sores rupture, ooze for a few days, then form a yellow-brown crust. Antibiotics shorten the infection and can help prevent spread to others.."
+        ]
+    },
+    {
+        "tag":"Symptoms of Impetigo",
+        "patterns":["What other common signs and symptoms may occur with Impetigo?", "Symptoms of Impetigo","Impetigo"],
+        "responses":["Pus-filled itchy blisters, rashes on skin, Swollen lymph nodes ear infected area, Skin lesions or wounds "]
+    },
+    {
+        "tag":"Deal Impetigo or Manage Impetigo",
+        "patterns":["What can I do to manage impetigo?", "How to deal impetigo","How to overcome impetigo?"],
+        "responses":["Impetigo is treated with prescription mupirocin antibiotic ointment or cream applied directly to the sores two to three times a day for five to 10 days.","Before applying the medicine, soak the area in warm water or apply a wet cloth compress for a few minutes. Then pat dry and gently remove any scabs so the antibiotic can get into the skin. Place a nonstick bandage over the area to help prevent the sores from spreading.","Gentle cleansing, removal of the honey-colored crusts of nonbullous impetigo using antibacterial soap and a washcloth, and frequent application of wet dressings to areas affected by lesions are recommended."]
+    },
+    {
+        "tag":"Consult doctor regarding Impetigo",
+        "patterns":["When should I call my doctor?"],
+        "responses":["The blisters get red, warm, tender, or drain yellow or white fluid,You have questions or concerns about your impetigo,If the sores don't clear, even with antibiotic treatment, your doctor might take a sample of the liquid produced by a sore and test it to see what types of antibiotics would work best on it. Some types of the bacteria that cause impetigo have become resistant to certain antibiotics."]
+    },
+
+    {
+        "tag": "Alcoholic hepatitis",
+        "patterns": [
+            "I think I have Alcoholic hepatitis",
+            "What is Alcoholic hepatitis?",
+            "Tell me about Alcoholic hepatitis",
+            "Can I have some information about Alcoholic hepatitis?",
+            "How do I support a loved one with Alcoholic hepatitis?",
+            "How do I fix my Alcoholic hepatitis?"
+        ],
+        "responses": ["I see that you want to learn more about Alcoholic hepatitis, and how to support yourself or your loved ones. Alcoholic hepatitis is a Liver inflammation caused by drinking too much alcohol.Alcoholic hepatitis can occur in people who drink heavily for many years.Symptoms include yellow skin and eyes along with increasing stomach size due to fluid accumulation.Treatment involves hydration, nutritional care and stopping alcohol use. Steroid drugs can help reduce liver inflammation. Support your friends and loved ones by checking up on them and just listening."
+        ]
+    },
+
+    {
+        "tag":"Symptoms of Alcoholic hepatitis",
+        "patterns":["What other common signs and symptoms may occur with Alcoholic hepatitis?", "Symptoms of Alcoholic hepatitis","Alcoholic hepatitis"],
+        "responses":["Symptoms include yellow skin and eyes along with increasing stomach size due to fluid accumulation, people may also experience pain in the abdomen"]
+    },
+
+    {
+        "tag":"Deal Alcoholic hepatitis or Manage Alcoholic hepatitis",
+        "patterns":["What can I do to manage Alcoholic hepatitis?", "How to deal Alcoholic hepatitis","How to overcome Alcoholic hepatitis?"],
+        "responses":["Treatment involves hydration, nutritional care and stopping alcohol use. Steroid drugs can help reduce liver inflammation."]
+    },
+
+    {
+        "tag":"Consult doctor regarding Alcoholic hepatitis",
+        "patterns":["When should I call my doctor?"],
+        "responses":["If you drink excessive alcohol and notice weight loss, a bloated abdomen, or yellow skin tone.You need to consult a doctor."]
+    },
+
+    {
+        "tag": "Tuberculosis",
+        "patterns": [
+            "What is Tuberculosis?",
+            "Tell me about Tuberculosis",
+            "Can I have some information about Tuberculosis?",
+            "How do I support a loved one with Tuberculosis?",		
+            "How do I fix my Tuberculosis?"
+        ],
+        "responses": [
+            "I see that you want to learn more about Tuberculosis, and how to support yourself or your loved ones. At the highest level, Tuberculosis is a potentially serious infectious bacterial disease that mainly affects the lungs.The bacteria that cause TB are spread when an infected person coughs or sneezes.Most people infected with the bacteria that cause tuberculosis don't have symptoms. When symptoms do occur, they usually include a cough (sometimes blood-tinged), weight loss, night sweats and fever.Treatment isn't always required for those without symptoms. Patients with active symptoms will require a long course of treatment involving multiple antibiotics. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+        ]
+    },
+
+    {
+        "tag":"Symptoms of Tuberculosis",
+        "patterns":["What other common signs and symptoms may occur with Tuberculosis?", "Symptoms of Tuberculosis","Tuberculosis"],
+        "responses":["Most people infected with the bacteria that cause tuberculosis don't have symptoms. When symptoms do occur, they usually include a cough (sometimes blood-tinged), weight loss, night sweats and fever."]
+    },
+
+    {
+        "tag":"Deal Tuberculosis or Manage Tuberculosis",
+        "patterns":["What can I do to manage Tuberculosis?", "How to deal Tuberculosis","How to overcome Tuberculosis?"],
+        "responses":["Treatment isn't always required for those without symptoms. Patients with active symptoms will require a long course of treatment involving multiple antibiotics."]
+    },
+
+    {
+        "tag":"Consult doctor regarding Tuberculosis",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Although side effects from tuberculosis medicine aren't common, they can be serious. Call your doctor immediately if you have any of these symptoms: Cough, Nausea, Vomiting."]
+    },
+   
+    {
+        "tag": "Common Cold",
+        "patterns": [
+            "I think I have Common Cold",
+            "What is Common Cold?",
+            "Tell me about Common Cold",
+            "Can I have some information about Common Cold?",
+            "How do I support a loved one with Common Cold?",
+            "How do I fix my Common Cold?"
+        ],
+        "responses": [
+            "I see that you want to learn more about Common Cold, and how to support yourself or your loved ones. At the higest level, Common cold is a common viral infection of the nose and throat.In contrast to the flu, a common cold can be caused by many different types of viruses. The condition is generally harmless and symptoms usually resolve within two weeks.Symptoms include a runny nose, sneezing and congestion. High fever or severe symptoms are reasons to see a doctor, especially in children.Most people recover on their own within two weeks. Over-the-counter products and home remedies can help control symptoms."
+        ]
+    },
+
+    {
+        "tag":"Symptoms of Common Cold",
+        "patterns":["What other common signs and symptoms may occur with Common Cold?", "Symptoms of Common Cold","Common Cold"],
+        "responses":["Symptoms include a runny nose, sneezing and congestion. High fever or severe symptoms are reasons to see a doctor, especially in children."]
+    },
+
+    {
+        "tag":"Deal Common Cold or Manage Common Cold",
+        "patterns":["What can I do to manage Common Cold?", "How to deal Common Cold","How to overcome Common Cold?"],
+        "responses":["Most people recover on their own within two weeks. Over-the-counter products and home remedies can help control symptoms."]
+    },
+
+    {
+        "tag":"Consult doctor regarding Common Cold",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Even if symptoms are not severe, you should see a doctor if they persist for more than three weeks or recur. These include having a persistent cough (with or without discharge), chest pain or soreness, sore throat, body aches, or persistent fatigue."]
+    },     
+
+    {
+        "tag": "Pneumonia",
+        "patterns": [
+            "I think I have Pneumonia",
+            "What is Pneumonia?",
+            "Tell me about Pneumonia",
+            "Can I have some information about Pneumonia?",
+            "How do I support a loved one with Pneumonia?",
+            "How do I fix my Pneumonia?"
+        ],
+        "responses": [
+            "I see that you want to learn more about Pneumonia, and how to support yourself or your loved ones. At the highest level, Infection that inflames air sacs in one or both lungs, which may fill with fluid.With pneumonia, the air sacs may fill with fluid or pus. The infection can be life-threatening to anyone, but particularly to infants, children and people over 65.Symptoms include a cough with phlegm or pus, fever, chills and difficulty breathing.Antibiotics can treat many forms of pneumonia. Some forms of pneumonia can be prevented by vaccines."
+        ]
+    },
+
+    {
+        "tag":"Symptoms of Pneumonia",
+        "patterns":["What other common signs and symptoms may occur with Pneumonia?", "Symptoms of Pneumonia","Pneumonia"],
+        "responses":["Symptoms include a cough with phlegm or pus, fever, chills and difficulty breathing, people may also experience sharp pain in the chest"]
+    },
+
+    {
+        "tag":"Deal Pneumonia or Manage Pneumonia",
+        "patterns":["What can I do to manage Pneumonia?", "How to deal Pneumonia","How to overcome Pneumonia?"],
+        "responses":["Antibiotics can treat many forms of pneumonia. Some forms of pneumonia can be prevented by vaccines."]
+    },
+
+    {
+        "tag":"Consult doctor regarding Pneumonia",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Pneumonia can be life-threatening if left untreated, especially for certain at-risk people. You should call your doctor if you have a cough that won't go away, shortness of breath, chest pain, or a fever. You should also call your doctor if you suddenly begin to feel worse after having a cold or the flu."]
+    },
+
+    {
+        "tag": "Dimorphic hemorrhoids(piles)",
+        "patterns": [
+            "I think I have piles",
+            "What is piles?",
+            "Tell me about piles",
+            "Can I have some information about piles?",
+            "How do I support a loved one with piles?",
+            "How do I fix my Piles?"
+        ],
+        "responses": [
+            "I see that you want to learn more about piles, and how to support yourself or your loved ones. At the highest level, Hemorrhoids, or piles, are a common problem. These swollen veins inside the rectum or outside the anus can cause pain, anal itching and rectal bleeding. Symptoms often improve with at-home treatments but on occasion people need medical procedures. Eating more fiber can help prevent hemorrhoids."
+        ]
+    },
+    
+    {
+        "tag":"Symptoms of Dimorphic hemorrhoids(piles)",
+        "patterns":["What other common signs and symptoms may occur with Piles", "Symptoms of Piles","Piles"],
+        "responses":["Internal hemorrhoids rarely cause pain and usually don't have any other symptoms.Signs of external hemorrhoids include: Itchy anus, Hard lumps near the anus that feel sore or tender, Pain or ache in the anus, especially when you sit, Rectal bleeding."]
+    },
+
+    {
+        "tag":"Deal Dimorphic hemorrhoids(piles) or Manage Dimorphic hemorrhoids(piles)",
+        "patterns":["What can I do to manage Piles?", "How to deal Piles","How to overcome Piles?"],
+        "responses":["Your healthcare provider diagnoses hemorrhoids based on symptoms and a physical exam. You may also have:Digital rectal exam: Your provider inserts a gloved, lubricated finger into the rectum to feel for swollen veins.Anoscopy: Your provider uses an anoscope (lighted tube) to view the lining of the anus and rectum.Sigmoidoscopy: Your provider uses a sigmoidoscope (lighted tube with a camera) to view inside the lower (sigmoid) part of the colon and rectum. Procedure types include flexible sigmoidoscopy and rigid sigmoidoscopy (proctoscopy)."]
+    },
+
+    {
+        "tag":"Consult doctor regarding Dimorphic hemorrhoids(piles)",
+        "patterns":["When should I call my doctor?"],
+        "responses":["If you see bright red blood in the toilet paper. If over-the-counter medications fail to provide any relief to the symptoms. If your stool appears tar-like in color. If you feel dizzy every time while passing a bowel movement."]
+    },
+
+    {
+        "tag": "Heart attack",
+        "patterns": [
+            "What is Heart attack?",
+            "Tell me about Heart attack",
+            "Can I have some information about Heart attack?",
+            "How do I support a loved one with Heart attack?"
+        ],
+        "responses": ["I see that you want to learn more about heart attack, and how to support yourself or your loved ones. At the highest level, A blockage of blood flow to the heart muscle.A heart attack is a medical emergency. A heart attack usually occurs when a blood clot blocks blood flow to the heart. Without blood, tissue loses oxygen and dies.Symptoms include tightness or pain in the chest, neck, back or arms, as well as fatigue, lightheadedness, abnormal heartbeat and anxiety. Women are more likely to have atypical symptoms than men.Treatment ranges from lifestyle changes and cardiac rehabilitation to medication, stents and bypass surgery."
+        ]
+    },
+    
+    {
+        "tag":"Symptoms of Heart attack",
+        "patterns":["What other common signs and symptoms may occur with Heart attack?", "Symptoms of Heart attack","Heart attack"],
+        "responses":["Symptoms include tightness or pain in the chest, neck, back or arms, as well as fatigue, lightheadedness, abnormal heartbeat and anxiety. Women are more likely to have atypical symptoms than men.People may also experience pain in the area between shoulder blades, arm, chest, jaw, left arm, or upper abdomen"]
+    },
+
+    {
+        "tag":"Deal Heart attack or Manage Heart attack",
+        "patterns":["What can I do to manage Heart attack?", "How to deal Heart attack","How to overcome Heart attack?"],
+        "responses":["Treatment ranges from lifestyle changes and cardiac rehabilitation to medication, stents and bypass surgery."]
+    },
+
+    {
+        "tag":"Consult doctor regarding Heart attack",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Chest pain or discomfort that is severe and unexpected. It can happen with or without shortness of breath, sweating, nausea, or weakness. Fast heart rate (more than 150 beats per minute), especially if they are short of breath."]
+    },
+
+    {
+        "tag": "Varicose veins",
+        "patterns": [
+            "I think I have Varicose veins",
+            "What is Varicose veins?",
+            "Tell me about Varicose veins",
+            "Can I have some information about Varicose veins?",
+            "How do I support a loved one with Varicose veins?"
+        ],
+        "responses": [
+            "I see that you want to learn more about Varicose veins, and how to support yourself or your loved ones. At the highest level,Varicose veins has  Gnarled, enlarged veins, most commonly appearing in the legs and feet.Varicose veins are generally benign. The cause of this condition is not known.For many people, there are no symptoms and varicose veins are simply a cosmetic concern. In some cases, they cause aching pain and discomfort or signal an underlying circulatory problem.Treatment involves compression stockings, exercise or procedures to close or remove the veins."]
+    },
+   
+    {
+        "tag":"Symptoms of Varicose veins",
+        "patterns":["What other common signs and symptoms may occur with Varicose veins?", "Symptoms of Varicose veins","Varicose veins"],
+        "responses":["For many people, there are no symptoms and varicose veins are simply a cosmetic concern. In some cases, they cause aching pain and discomfort or signal an underlying circulatory problem."]
+    },
+
+    {
+        "tag":"Deal Varicose veins or Manage Varicose veins",
+        "patterns":["What can I do to manage Varicose veins?", "How to deal Varicose veins","How to overcome Varicose veins?"],
+        "responses":["Treatment involves compression stockings, exercise or procedures to close or remove the veins."]
+    },
+
+    {
+        "tag":"Consult doctor regarding Varicose veins",
+        "patterns":["When should I call my doctor?"],
+        "responses":["Achy, heavy legs that are typically relieved when elevated for at least 15 minutes. Burning, throbbing sensation over an enlarged vein. Muscle cramping and restless legs at night"]
+    },
+
+    {
+        "tag": "Hypothyroidism",
+        "patterns": [
+            "I think I have Hypothyroidism",
+            "What is Hypothyroidism?",
+            "Tell me about Hypothyroidism",
+            "Can I have some information about Hypothyroidism?",
+            "How do I support a loved one with Hypothyroidism?"
+        ],
+        "responses": ["I see that you want to learn more about Hypothyroidism, and how to support yourself or your loved ones. At the highest level,Hypothyroidism is a condition in which the thyroid gland doesn't produce enough thyroid hormone.Hypothyroidism's deficiency of thyroid hormones can disrupt such things as heart rate, body temperature and all aspects of metabolism. Hypothyroidism is most prevalent in older women.Major symptoms include fatigue, cold sensitivity, constipation, dry skin and unexplained weight gain.Treatment consists of thyroid hormone replacement."
+        ]
+    },
+
+    {
+        "tag":"Symptoms of Hypothyroidism",
+        "patterns":["What other common signs and symptoms may occur with Hypothyroidism?", "Symptoms of Hypothyroidism","Hypothyroidism"],
+        "responses":["Major symptoms include fatigue, cold sensitivity, constipation, dry skin and unexplained weight gain."]
+    },
+
+    {
+        "tag":"Deal Hypothyroidism or Manage Hypothyroidism",
+        "patterns":["What can I do to manage Hypothyroidism?", "How to deal Hypothyroidism","How to overcome Hypothyroidism?"],
+        "responses":["Treatment consists of thyroid hormone replacement."]
+    },
+
+    {
+        "tag":"Consult doctor regarding Hypothyroidism",
+        "patterns":["When should I call my doctor?"],
+        "responses":["If you have hypothyroidism and your symptoms have not gotten better with treatment: If you've been taking medication to replace your thyroid hormone for an extended period of time but your symptoms persist, it may be reasonable to see an endocrinologist for a second opinion."]
+    }
+]
+}
